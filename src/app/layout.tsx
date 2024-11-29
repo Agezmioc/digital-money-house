@@ -14,12 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex flex-col min-h-screen bg-[#201F22] text-white">
         <div>
           <Header/>
         </div>
         {children}
-        <div>
+        <div className="mt-auto bg-[#3A393E] flex items-center justify-left text-lime-500 h-10 text-sm">
         © 2022 Digital Money House
         </div>
       </body>
